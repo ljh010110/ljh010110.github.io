@@ -1,0 +1,11 @@
+{
+  "name": "Personal Homepage",
+  "version": "1.0.0",
+  "description": "Your project description",
+  "scripts": {
+    "build": "your-build-command-here"
+  },
+  "dependencies": {
+    "your-dependency-name": "dependency-version"
+  }
+}
