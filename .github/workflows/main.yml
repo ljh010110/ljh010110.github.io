@@ -23,10 +23,3 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.homepage }}
-          publish_dir: ./build
-
