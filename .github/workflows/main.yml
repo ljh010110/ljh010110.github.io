@@ -18,9 +18,13 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Install dependencies and Build
+      - name: Initialize project
         run: |
-          echo "{}" > package.json
+          npm init -y
+          npm install
+
+      - name: Build and Deploy
+        run: |
           npm ci
           npm run build
 
