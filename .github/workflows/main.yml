@@ -1,25 +1,25 @@
-name: GitHub Pages
+name: GitHub Pages  # name of workflow
 
 on:
-  push:
+  push:  # workflow is executed when push event occur
     branches:
-      - main
+      - main  # branch that will receive push event is main branch.
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+jobs:  # works in workflow are as follow
+  build:  # work name is build
+    runs-on: ubuntu-latest  # work executed in the latest version of Ubuntu
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    steps:  # step by step action of work
+      - name: Checkout repository  # Checkout repository step
+        uses: actions/checkout@v2  # use actions/checkout and checkout current repository, that is to make copy of repository for use and modification
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Set up Node.js  # Set up Node.js step
+        uses: actions/setup-node@v3  # use actions/setup-node and set Node.js
         with:
-          node-version: '14'
+          node-version: '14'  # Node.js version is 14
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies  # Install dependencies step
+        run: npm install  # use npm to install dependencies. Dependency lists are in package.json file
 
-      - name: Run tests
-        run: npm test
+      - name: Run tests  # Run tests step
+        run: npm test  # use npm to execute test. Test is written in package.json file
