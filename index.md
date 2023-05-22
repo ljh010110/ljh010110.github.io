@@ -1,19 +1,31 @@
 # ljh010110's Homepage
 
-## Introduction
+# Introduction
 
-Hello, I am ljh010110. Currently I am studying at SKKU, majoring in software engineering.
+## < Self Introduction >
 
-I am 23 years old. I have studied abroad since I was 14.
+Hello, I am ljh010110. I am 23 years old.
+
+I am a male and I finished my military duty.
+
+## < Career Summary >
+
+Currently I am studying at SKKU, majoring in software.
 
 I am currently at a sophomore year of Bachelor course.
+
+## < Educational Background >
+
+I have studied abroad since I was 14.
 
 Thank you for visiting my homepage :)
 
 
 # Skills
 
-- C, C++, C#, JAVA, Unity, and etc...
+## < languages and tools >
+
+- C, C++, C#, JAVA, Unity, and studying Python.
 
 # Education
 
@@ -33,7 +45,9 @@ School :
 
 - SungKyunKwan University (2020 ~ )
 
-Courses Taken: Algorithms, JAVA Programming Lab, Open Source Software Practice, Computer Programming for Engineers, Data Structures, and etc...
+## < Courses Taken >
+
+Algorithms, JAVA Programming Lab, Open Source Software Practice, Computer Programming for Engineers, Data Structures, and etc...
 
 # Achievements and Certifications
 
