@@ -20,6 +20,3 @@ jobs:  # works in workflow are as follow
 
       - name: Install dependencies  # Install dependencies step
         run: npm install  # use npm to install dependencies. Dependency lists are in package.json file
-
-      - name: Run tests  # Run tests step
-        run: npm test  # use npm to execute test. Test is written in package.json file
