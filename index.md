@@ -1,6 +1,6 @@
 # ljh010110's Homepage
 
-# Introduction
+## Introduction
 
 Hello, I am ljh010110. Currently I am studying at SKKU, majoring in software engineering.
 
