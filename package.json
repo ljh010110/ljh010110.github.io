@@ -4,10 +4,13 @@
   "description": "",
   "scripts": {
     "build": "npm run build",
-    "test": "cat test/1.txt"
+    "test": "mocha"
   },
   "dependencies": {
-  "express": "^4.17.1",
-  "ejs": "^3.1.6"
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "winston": "^3.3.3",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.1"
   }
 }
