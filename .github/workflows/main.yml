@@ -19,7 +19,7 @@ jobs:
         node-version: '14'
 
     - name: Build and Deploy
-      working-directory: ./ljh010110.github.io
+      working-directory: ./ljh010110.github.io/ljh010110.github.io
       run: |
         npm ci
         npm run build # 또는 빌드 스크립트 명령어로 변경
