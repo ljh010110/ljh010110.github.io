@@ -11,6 +11,8 @@ const logger = winston.createLogger({
   ]
 });
 
+const app = require('../app'); // 여기서 '../app'는 익스프레스 애플리케이션 파일의 경로에 맞게 수정해야 합니다.
+
 describe('Homepage Test', () => {
   it('Page Loading Test', async () => {
     const response = await chai.request(app).get('/');
