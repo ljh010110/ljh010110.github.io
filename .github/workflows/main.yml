@@ -1,44 +1,28 @@
-# designate workflow's name
 name: GitHub Pages
 
-# when 'push' event happens on 'main' branch, workflow is triggered
 on:
   push:
     branches:
       - main
 
-# define the work that will be executed on workflow
 jobs:
-
-  # designate the work's name
   build:
-  
-    # work will be executed on the latest version of ubuntu environment
     runs-on: ubuntu-latest
 
-    # define the steps that will be followed by work
     steps:
-    
-      # this step is to checkout Github repository, which means creating a local copy of a remote repository
       - name: Checkout repository
-        # the tool used is actions/checkout@v2
         uses: actions/checkout@v2
 
-      # this step is to set Node.js version, it will be 14
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '14'
 
-      # this step is to install dependencies, dependencies are like the external library, packages my project relies on to function correctly.
       - name: Install dependencies
-        # I use Node Package Manager which is a package manager of JavaScript programming language
         run: npm install
         
       - name: Install Winston
         run: npm install winston
 
-      # this step is to test the user defined test
       - name: Run tests
-        # I use Node Package Manager for it
         run: npm test
