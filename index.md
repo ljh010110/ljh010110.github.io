@@ -4,14 +4,14 @@ Hello, I am ljh010110. Currently I am studying at SKKU, majoring in software eng
 
 I am 23 years old. I have studied abroad since I was 14.
 
-I am currently at sophomore year of Bachelor course.
+I am currently at a sophomore year of Bachelor course.
 
-Thank you for visiting my homepage.
+Thank you for visiting my homepage :)
 
 
 # Skills
 
-- C, C++, C#, JAVA, Unity, and etc.
+- C, C++, C#, JAVA, Unity, and etc...
 
 # Education
 
@@ -31,6 +31,8 @@ School :
 
 - SungKyunKwan University (2020 ~ )
 
+Courses Taken: Algorithms, JAVA Programming Lab, Open Source Software Practice, Computer Programming for Engineers, Data Structures, and etc...
+
 # Achievements and Certifications
 
 - TOEFL : 112
@@ -45,4 +47,4 @@ School :
 
 - Email : ljh010110@g.skku.edu
 
-- Github: github.com/ljh010110
+- Github: https://github.com/ljh010110
