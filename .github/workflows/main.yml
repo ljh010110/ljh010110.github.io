@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         # I use Node Package Manager which is a package manager of JavaScript programming language
         run: npm install
+        
+      - name: Install Winston
+        run: npm install winston
 
       # this step is to test the user defined test
       - name: Run tests
