@@ -3,29 +3,29 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main # 또는 해당되는 브랜치로 변경
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-    - name: Build and Deploy
-      working-directory:
-      run: |
-        npm ci
-        npm run build # 또는 빌드 스크립트 명령어로 변경
+      - name: Install dependencies and Build
+        run: |
+          echo "{}" > package.json
+          npm ci
+          npm run build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        deploy_key: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build # 빌드된 파일이 있는 디렉토리로 변경
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
