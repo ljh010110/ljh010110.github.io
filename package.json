@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "npm run build"
+    "build": "npm run build",
     "test": "cat test/1.txt"
   },
   "dependencies": {
