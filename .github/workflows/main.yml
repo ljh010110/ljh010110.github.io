@@ -20,12 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        
-      - name: Install Winston
-        run: npm install winston
-
-      - name: Install Chai
-        run: npm install chai --save-dev
 
       - name: Run tests
         run: npm test
